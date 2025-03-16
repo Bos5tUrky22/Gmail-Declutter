@@ -15,3 +15,7 @@ This Python script deletes old and automated emails from your Gmail account in b
 1. **Install Dependencies**:
    ```bash
    pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
+## Setup
+1. **Install Dependencies**:
+   ```bash
+   pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
