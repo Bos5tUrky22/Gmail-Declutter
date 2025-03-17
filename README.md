@@ -1,10 +1,11 @@
 # Gmail Cleanup Script
 
-This Python script deletes old and automated emails from your Gmail account in batches of 100.
+This Python script deletes old, automated, and promotional emails from your Gmail account in batches of 100.
 
 ## What It Does
-- Deletes all emails older than 2 years (before March 15, 2023, by default).
-- Deletes automated emails (with "unsubscribe") from 2 years to 6 months ago (March 15, 2023, to September 15, 2024).
+- Deletes all emails older than 2 years from the current date.
+- Deletes automated emails (with "unsubscribe") from 2 years to 6 months ago from the current date.
+- Deletes promotional emails older than 2 months from the current date.
 - Empties Trash and Spam folders.
 
 ## Prerequisites
